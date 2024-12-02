@@ -1,0 +1,133 @@
+.main {
+  background-color: #f7f9fc;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #004aad;
+}
+
+.section {
+  margin: 20px auto;
+  max-width: 800px;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #222;
+  border-bottom: 2px solid #004aad;
+  padding-bottom: 5px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #004aad;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 74, 173, 0.5);
+}
+
+.submitButton {
+  background-color: #004aad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #003380;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.infoItem strong {
+  color: #004aad;
+}
+
+.infoItem a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.infoItem a:hover {
+  text-decoration: underline;
+}
+
+.backLink {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.backLink a {
+  color: #004aad;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.backLink a:hover {
+  text-decoration: underline;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.navButton {
+  background-color: #004aad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #003380;
+}

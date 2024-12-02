@@ -1,0 +1,78 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+  
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 30px;
+  }
+  
+ /* Nav.module.css */
+
+/* Style for the navigation container */
+.nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* The list inside the navigation bar */
+  .navList {
+    list-style-type: none;  /* Remove the default list styling */
+    display: flex;          /* Use Flexbox to align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    margin: 0;              /* Remove default margin */
+    padding: 0;             /* Remove default padding */
+  }
+  
+  /* Style for each navigation item */
+  .navItem {
+    margin: 0 20px;  /* Add space between the items */
+  }
+  
+  .navItem a {
+    color: white;     /* White text color */
+    text-decoration: none;  /* Remove underline from links */
+    font-size: 1.2rem; /* Adjust the font size */
+    padding: 8px 16px; /* Add some padding to the links */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for links */
+  .navItem a:hover {
+    background-color: #0070f3; /* Blue background on hover */
+    color: white;  /* Keep text color white on hover */
+  }
+  
+
+  
